@@ -1,4 +1,4 @@
-[gd_scene load_steps=39 format=2]
+[gd_scene load_steps=38 format=2]
 
 [ext_resource path="res://Paddle/Paddle.gd" type="Script" id=1]
 [ext_resource path="res://Ball/Ball_Container.gd" type="Script" id=2]
@@ -6,7 +6,6 @@
 [ext_resource path="res://HUD/HUD.gd" type="Script" id=4]
 [ext_resource path="res://Walls/Walls.gd" type="Script" id=5]
 [ext_resource path="res://Background/Background.gd" type="Script" id=6]
-[ext_resource path="res://Assets/confetti.png" type="Texture" id=7]
 [ext_resource path="res://Assets/bubble.png" type="Texture" id=8]
 [ext_resource path="res://Camera/Camera.gd" type="Script" id=9]
 [ext_resource path="res://Ball/Trail_Container.gd" type="Script" id=10]
@@ -125,7 +124,7 @@ margin_left = -200.0
 margin_top = -200.0
 margin_right = 1275.0
 margin_bottom = 968.0
-color = Color( 0, 0, 0, 1 )
+color = Color( 0.0313726, 0.0156863, 0.156863, 1 )
 script = ExtResource( 6 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -209,7 +208,7 @@ amount = 6
 lifetime = 0.4
 one_shot = true
 process_material = SubResource( 15 )
-texture = ExtResource( 7 )
+texture = ExtResource( 8 )
 
 [node name="Trail_Container" type="Node2D" parent="."]
 script = ExtResource( 10 )
@@ -275,7 +274,7 @@ margin_left = -10.0
 margin_top = -10.0
 margin_right = 275.0
 margin_bottom = 778.0
-color = Color( 0.286275, 0.313726, 0.341176, 1 )
+color = Color( 0.227451, 0.419608, 0.607843, 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
